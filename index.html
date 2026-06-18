@@ -1,39 +1,304 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="OM AGRI INPUTS - Premium fertilizers and crop nutrition solutions in Gujarat. Trusted by 5000+ farmers for genuine products and better yields." />
-    <meta property="og:title" content="OM AGRI INPUTS - उन्नत खेती के लिए भरोसेमंद कृषि समाधान" />
-    <meta property="og:description" content="Genuine agricultural products, expert guidance, and modern farming solutions for higher crop yield." />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="/og-image.jpg" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet" />
-    <title>OM AGRI INPUTS | Premium Fertilizers & Crop Nutrition</title>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "name": "OM AGRI INPUTS",
-      "description": "Premium agricultural fertilizers and crop nutrition products.",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Chital",
-        "addressLocality": "Amreli",
-        "addressRegion": "Gujarat",
-        "addressCountry": "IN"
-      },
-      "telephone": "+91-XXXXXXXXXX",
-      "url": "https://www.omagriinputs.com"
-    }
-    </script>
-  </head>
-  <body class="bg-light text-dark antialiased">
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<html lang="hi" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="OM AGRI INPUTS provides premium fertilizers, SSP, micronutrients, organic products, crop nutrition solutions and agricultural inputs for farmers across Gujarat.">
+    <meta name="keywords" content="Fertilizer Dealer Gujarat, Agriculture Inputs, SSP Dealer, Micronutrients, Crop Nutrition, Organic Fertilizer, Agriculture Distributor, OM AGRI INPUTS, Paresh Lathiya, Amreli, Chital">
+    <meta name="author" content="OM AGRI INPUTS">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="OM AGRI INPUTS | Fertilizer Dealer & Distributor | Gujarat">
+    <meta property="og:description" content="Premium fertilizers, SSP, micronutrients, organic products & crop nutrition solutions for farmers across Gujarat.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="hi_IN">
+    <title>OM AGRI INPUTS | Fertilizer Dealer & Distributor | Gujarat | उन्नत खेती के लिए भरोसेमंद कृषि समाधान</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+Devanagari:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="lang-hi">
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loader-logo">OM</div>
+        <div class="loader-dots"><span></span><span></span><span></span></div>
+    </div>
+
+    <!-- Scroll Progress -->
+    <div id="scroll-progress"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="navbar-inner">
+            <a href="#home" class="nav-logo">
+                <div class="nav-logo-icon">OM</div>
+                <div class="nav-logo-text">OM AGRI INPUTS<span>उन्नत कृषि समाधान</span></div>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="active" data-lang-hi="होम" data-lang-en="Home">होम</a></li>
+                <li><a href="#about" data-lang-hi="हमारे बारे में" data-lang-en="About">हमारे बारे में</a></li>
+                <li><a href="#products" data-lang-hi="उत्पाद" data-lang-en="Products">उत्पाद</a></li>
+                <li><a href="#brands" data-lang-hi="ब्रांड्स" data-lang-en="Brands">ब्रांड्स</a></li>
+                <li><a href="#gallery" data-lang-hi="गैलरी" data-lang-en="Gallery">गैलरी</a></li>
+                <li><a href="#why-us" data-lang-hi="हमें क्यों चुनें" data-lang-en="Why Us">हमें क्यों चुनें</a></li>
+                <li><a href="#testimonials" data-lang-hi="प्रशंसापत्र" data-lang-en="Testimonials">प्रशंसापत्र</a></li>
+                <li><a href="#contact" data-lang-hi="संपर्क" data-lang-en="Contact">संपर्क</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="nav-btn btn-dark-toggle" id="darkToggle" aria-label="Toggle dark mode">🌓</button>
+                <button class="nav-btn btn-lang-toggle" id="langToggle">EN | हिन्दी</button>
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menu">☰</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section section" id="home">
+        <div class="hero-bg-particles" id="heroParticles"></div>
+        <div class="hero-inner">
+            <div class="hero-content">
+                <div class="hero-badge"><span class="hero-badge-dot"></span> <span data-lang-hi="विश्वसनीय Dealer & Distributor" data-lang-en="Trusted Dealer & Distributor">विश्वसनीय Dealer & Distributor</span></div>
+                <h1 class="hero-title" data-lang-hi="विश्वास, गुणवत्ता और <span class='highlight'>आधुनिक कृषि समाधान</span>" data-lang-en="Trust, Quality & <span class='highlight'>Modern Agriculture Solutions</span>">विश्वास, गुणवत्ता और <span class="highlight">आधुनिक कृषि समाधान</span></h1>
+                <p class="hero-subtitle" data-lang-hi="OM AGRI INPUTS किसानों के लिए उच्च गुणवत्ता वाले उर्वरक, माइक्रोन्यूट्रिएंट्स एवं कृषि उत्पाद उपलब्ध कराने वाला विश्वसनीय Dealer एवं Distributor है।" data-lang-en="OM AGRI INPUTS is a trusted Dealer & Distributor providing high-quality fertilizers, micronutrients & agricultural products for farmers.">OM AGRI INPUTS किसानों के लिए उच्च गुणवत्ता वाले उर्वरक, माइक्रोन्यूट्रिएंट्स एवं कृषि उत्पाद उपलब्ध कराने वाला विश्वसनीय Dealer एवं Distributor है।</p>
+                <div class="hero-btns">
+                    <a href="#products" class="btn-primary btn-primary-fill">📦 <span data-lang-hi="उत्पाद देखें" data-lang-en="Explore Products">उत्पाद देखें</span></a>
+                    <a href="#contact" class="btn-primary btn-primary-outline">📞 <span data-lang-hi="संपर्क करें" data-lang-en="Contact Now">संपर्क करें</span></a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-main-image">🌾</div>
+                <div class="hero-floating-card glass-card"><span class="fc-icon fc-icon-green">✔</span> Premium Quality</div>
+                <div class="hero-floating-card glass-card"><span class="fc-icon fc-icon-gold">⭐</span> Trusted Dealer</div>
+                <div class="hero-floating-card glass-card"><span class="fc-icon fc-icon-green">🧑‍🌾</span> Expert Guidance</div>
+                <div class="hero-floating-card glass-card"><span class="fc-icon fc-icon-gold">🌱</span> Best Crop Nutrition</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about" style="background:var(--white);">
+        <div style="position:absolute;top:-2px;left:0;width:100%;overflow:hidden;line-height:0;pointer-events:none;z-index:1;"><svg viewBox="0 0 1440 60" preserveAspectRatio="none"><path d="M0,30 C360,0 1080,60 1440,30 L1440,0 L0,0 Z" fill="var(--bg-cream)"/></svg></div>
+        <div class="section-inner">
+            <span class="section-label" data-lang-hi="हमारे बारे में" data-lang-en="About Us">हमारे बारे में</span>
+            <h2 class="section-title" data-lang-hi="हमारे बारे में" data-lang-en="About OM AGRI INPUTS">हमारे बारे में</h2>
+            <p class="section-subtitle" data-lang-hi="OM AGRI INPUTS किसानों को गुणवत्तापूर्ण कृषि उत्पाद उपलब्ध कराने वाला एक विश्वसनीय नाम है। हमारा उद्देश्य केवल उत्पाद बेचना नहीं बल्कि किसानों को सही मार्गदर्शन और बेहतर खेती के लिए उचित समाधान प्रदान करना है।" data-lang-en="OM AGRI INPUTS is a trusted name providing quality agricultural products to farmers. Our aim is not just to sell products but to provide proper guidance and suitable solutions for better farming.">OM AGRI INPUTS किसानों को गुणवत्तापूर्ण कृषि उत्पाद उपलब्ध कराने वाला एक विश्वसनीय नाम है। हमारा उद्देश्य केवल उत्पाद बेचना नहीं बल्कि किसानों को सही मार्गदर्शन और बेहतर खेती के लिए उचित समाधान प्रदान करना है।</p>
+            <div class="cards-grid mt-20" style="margin-top:36px;">
+                <div class="premium-card text-center">
+                    <div class="premium-card-icon" style="margin:0 auto 16px;">🎯</div>
+                    <h3 data-lang-hi="हमारा मिशन" data-lang-en="Our Mission">हमारा मिशन</h3>
+                    <p data-lang-hi="किसानों को सर्वोत्तम कृषि उत्पाद और मार्गदर्शन प्रदान कर उनकी उपज बढ़ाना।" data-lang-en="To increase farmers' yield by providing the best agricultural products and guidance.">किसानों को सर्वोत्तम कृषि उत्पाद और मार्गदर्शन प्रदान कर उनकी उपज बढ़ाना।</p>
+                </div>
+                <div class="premium-card text-center">
+                    <div class="premium-card-icon" style="margin:0 auto 16px;">🔭</div>
+                    <h3 data-lang-hi="हमारी दृष्टि" data-lang-en="Our Vision">हमारी दृष्टि</h3>
+                    <p data-lang-hi="गुजरात में सबसे भरोसेमंद कृषि समाधान प्रदाता बनना।" data-lang-en="To become the most trusted agricultural solution provider in Gujarat.">गुजरात में सबसे भरोसेमंद कृषि समाधान प्रदाता बनना।</p>
+                </div>
+                <div class="premium-card text-center">
+                    <div class="premium-card-icon" style="margin:0 auto 16px;">💎</div>
+                    <h3 data-lang-hi="मूल मूल्य" data-lang-en="Core Values">मूल मूल्य</h3>
+                    <p data-lang-hi="विश्वास • गुणवत्ता • प्रतिबद्धता • किसान प्रथम • नवाचार" data-lang-en="Trust • Quality • Commitment • Farmer First • Innovation">विश्वास • गुणवत्ता • प्रतिबद्धता • किसान प्रथम • नवाचार</p>
+                </div>
+            </div>
+        </div>
+        <div style="position:absolute;bottom:-2px;left:0;width:100%;overflow:hidden;line-height:0;pointer-events:none;z-index:1;"><svg viewBox="0 0 1440 60" preserveAspectRatio="none"><path d="M0,0 C360,30 1080,-30 1440,0 L1440,60 L0,60 Z" fill="var(--bg-cream)"/></svg></div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="section" id="stats">
+        <div class="section-inner">
+            <div class="stats-grid">
+                <div class="stat-card"><div class="stat-number" data-target="1000">0</div><div class="stat-label">+ <span data-lang-hi="खुश किसान" data-lang-en="Happy Farmers">खुश किसान</span></div></div>
+                <div class="stat-card"><div class="stat-number" data-target="50">0</div><div class="stat-label">+ <span data-lang-hi="उत्पाद" data-lang-en="Products">उत्पाद</span></div></div>
+                <div class="stat-card"><div class="stat-number" data-target="10">0</div><div class="stat-label">+ <span data-lang-hi="ब्रांड्स" data-lang-en="Brands">ब्रांड्स</span></div></div>
+                <div class="stat-card"><div class="stat-number" data-target="100">0</div><div class="stat-label">% <span data-lang-hi="ग्राहक संतुष्टि" data-lang-en="Customer Satisfaction">ग्राहक संतुष्टि</span></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="section" id="why-us" style="background:var(--white);">
+        <div style="position:absolute;top:-2px;left:0;width:100%;overflow:hidden;line-height:0;pointer-events:none;z-index:1;"><svg viewBox="0 0 1440 60" preserveAspectRatio="none"><path d="M0,30 C360,0 1080,60 1440,30 L1440,0 L0,0 Z" fill="var(--bg-cream)"/></svg></div>
+        <div class="section-inner">
+            <span class="section-label" data-lang-hi="हमें क्यों चुनें" data-lang-en="Why Choose Us">हमें क्यों चुनें</span>
+            <h2 class="section-title" data-lang-hi="हमें क्यों चुनें" data-lang-en="Why Choose Us">हमें क्यों चुनें</h2>
+            <div class="cards-grid mt-20" style="margin-top:36px;">
+                <div class="premium-card"><div class="premium-card-icon">🏆</div><h3 data-lang-hi="अनुभवी Dealer" data-lang-en="Experienced Dealer">अनुभवी Dealer</h3><p data-lang-hi="वर्षों का अनुभव और कृषि क्षेत्र में गहरी समझ।" data-lang-en="Years of experience and deep understanding of the agriculture sector.">वर्षों का अनुभव और कृषि क्षेत्र में गहरी समझ।</p></div>
+                <div class="premium-card"><div class="premium-card-icon">✅</div><h3 data-lang-hi="असली उत्पाद" data-lang-en="Genuine Products">असली उत्पाद</h3><p data-lang-hi="100% प्रामाणिक एवं गुणवत्ता प्रमाणित उत्पाद।" data-lang-en="100% authentic and quality certified products.">100% प्रामाणिक एवं गुणवत्ता प्रमाणित उत्पाद।</p></div>
+                <div class="premium-card"><div class="premium-card-icon">💰</div><h3 data-lang-hi="किफायती मूल्य" data-lang-en="Affordable Pricing">किफायती मूल्य</h3><p data-lang-hi="प्रतिस्पर्धी दरों पर सर्वोत्तम उत्पाद।" data-lang-en="Best products at competitive rates.">प्रतिस्पर्धी दरों पर सर्वोत्तम उत्पाद।</p></div>
+                <div class="premium-card"><div class="premium-card-icon">🧑‍🔬</div><h3 data-lang-hi="विशेषज्ञ मार्गदर्शन" data-lang-en="Expert Guidance">विशेषज्ञ मार्गदर्शन</h3><p data-lang-hi="फसल पोषण पर विशेषज्ञ सलाह।" data-lang-en="Expert advice on crop nutrition.">फसल पोषण पर विशेषज्ञ सलाह।</p></div>
+                <div class="premium-card"><div class="premium-card-icon">🚚</div><h3 data-lang-hi="तेज़ डिलीवरी" data-lang-en="Fast Delivery">तेज़ डिलीवरी</h3><p data-lang-hi="समय पर उत्पाद पहुँचाने की गारंटी।" data-lang-en="Guaranteed on-time product delivery.">समय पर उत्पाद पहुँचाने की गारंटी।</p></div>
+                <div class="premium-card"><div class="premium-card-icon">🤝</div><h3 data-lang-hi="किसान सहायता" data-lang-en="Farmer Support">किसान सहायता</h3><p data-lang-hi="हर कदम पर किसानों का साथ।" data-lang-en="Supporting farmers at every step.">हर कदम पर किसानों का साथ।</p></div>
+                <div class="premium-card"><div class="premium-card-icon">🔬</div><h3 data-lang-hi="गुणवत्ता आश्वासन" data-lang-en="Quality Assurance">गुणवत्ता आश्वासन</h3><p data-lang-hi="कठोर गुणवत्ता जांच के बाद ही उत्पाद वितरण।" data-lang-en="Product distribution only after rigorous quality checks.">कठोर गुणवत्ता जांच के बाद ही उत्पाद वितरण।</p></div>
+                <div class="premium-card"><div class="premium-card-icon">📞</div><h3 data-lang-hi="After Sales Support" data-lang-en="After Sales Support">After Sales Support</h3><p data-lang-hi="खरीद के बाद भी पूर्ण सहयोग।" data-lang-en="Complete support even after purchase.">खरीद के बाद भी पूर्ण सहयोग।</p></div>
+            </div>
+        </div>
+        <div style="position:absolute;bottom:-2px;left:0;width:100%;overflow:hidden;line-height:0;pointer-events:none;z-index:1;"><svg viewBox="0 0 1440 60" preserveAspectRatio="none"><path d="M0,0 C360,30 1080,-30 1440,0 L1440,60 L0,60 Z" fill="var(--bg-cream)"/></svg></div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="section" id="products">
+        <div class="section-inner">
+            <span class="section-label" data-lang-hi="हमारे उत्पाद" data-lang-en="Our Products">हमारे उत्पाद</span>
+            <h2 class="section-title" data-lang-hi="उत्पाद श्रेणियाँ" data-lang-en="Product Categories">उत्पाद श्रेणियाँ</h2>
+            <div class="product-filters" id="productFilters">
+                <button class="product-filter-btn active" data-filter="all">सभी</button>
+                <button class="product-filter-btn" data-filter="ssp">SSP</button>
+                <button class="product-filter-btn" data-filter="micronutrients">Micronutrients</button>
+                <button class="product-filter-btn" data-filter="wsf">Water Soluble</button>
+                <button class="product-filter-btn" data-filter="organic">Organic</button>
+                <button class="product-filter-btn" data-filter="growth">Growth Promoters</button>
+            </div>
+            <div class="cards-grid" id="productsGrid" style="grid-template-columns:repeat(auto-fill, minmax(280px, 1fr));">
+                <!-- Product cards injected by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Brands Section -->
+    <section class="section" id="brands" style="background:var(--white);">
+        <div style="position:absolute;top:-2px;left:0;width:100%;overflow:hidden;line-height:0;pointer-events:none;z-index:1;"><svg viewBox="0 0 1440 60" preserveAspectRatio="none"><path d="M0,30 C360,0 1080,60 1440,30 L1440,0 L0,0 Z" fill="var(--bg-cream)"/></svg></div>
+        <div class="section-inner">
+            <span class="section-label" data-lang-hi="हमारे ब्रांड्स" data-lang-en="Our Brands">हमारे ब्रांड्स</span>
+            <h2 class="section-title" data-lang-hi="ब्रांड्स जिनके हम Dealer हैं" data-lang-en="Brands We Deal In">ब्रांड्स जिनके हम Dealer हैं</h2>
+            <div class="brand-slider-wrapper mt-20">
+                <div class="brand-slider-track" id="brandTrack">
+                    <!-- Duplicated for seamless loop -->
+                </div>
+            </div>
+        </div>
+        <div style="position:absolute;bottom:-2px;left:0;width:100%;overflow:hidden;line-height:0;pointer-events:none;z-index:1;"><svg viewBox="0 0 1440 60" preserveAspectRatio="none"><path d="M0,0 C360,30 1080,-30 1440,0 L1440,60 L0,60 Z" fill="var(--bg-cream)"/></svg></div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="section" id="gallery">
+        <div class="section-inner">
+            <span class="section-label" data-lang-hi="गैलरी" data-lang-en="Gallery">गैलरी</span>
+            <h2 class="section-title" data-lang-hi="हमारी गैलरी" data-lang-en="Our Gallery">हमारी गैलरी</h2>
+            <div class="gallery-grid" id="galleryGrid">
+                <!-- Gallery cards injected by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Process -->
+    <section class="section" id="process" style="background:var(--white);">
+        <div style="position:absolute;top:-2px;left:0;width:100%;overflow:hidden;line-height:0;pointer-events:none;z-index:1;"><svg viewBox="0 0 1440 60" preserveAspectRatio="none"><path d="M0,30 C360,0 1080,60 1440,30 L1440,0 L0,0 Z" fill="var(--bg-cream)"/></svg></div>
+        <div class="section-inner">
+            <span class="section-label" data-lang-hi="हमारी प्रक्रिया" data-lang-en="Our Process">हमारी प्रक्रिया</span>
+            <h2 class="section-title" data-lang-hi="हमारी प्रक्रिया" data-lang-en="Our Process">हमारी प्रक्रिया</h2>
+            <div class="timeline">
+                <div class="timeline-step"><div class="timeline-dot">1</div><h4 data-lang-hi="पूछताछ" data-lang-en="Inquiry">पूछताछ</h4><p data-lang-hi="ग्राहक संपर्क" data-lang-en="Customer Inquiry">ग्राहक संपर्क</p></div>
+                <div class="timeline-step"><div class="timeline-dot">2</div><h4 data-lang-hi="चर्चा" data-lang-en="Discussion">चर्चा</h4><p data-lang-hi="आवश्यकता पर बात" data-lang-en="Requirement Discussion">आवश्यकता पर बात</p></div>
+                <div class="timeline-step"><div class="timeline-dot">3</div><h4 data-lang-hi="सुझाव" data-lang-en="Recommendation">सुझाव</h4><p data-lang-hi="उत्पाद सिफारिश" data-lang-en="Product Recommendation">उत्पाद सिफारिश</p></div>
+                <div class="timeline-step"><div class="timeline-dot">4</div><h4 data-lang-hi="ऑर्डर" data-lang-en="Order">ऑर्डर</h4><p data-lang-hi="खरीद प्रक्रिया" data-lang-en="Order Process">खरीद प्रक्रिया</p></div>
+                <div class="timeline-step"><div class="timeline-dot">5</div><h4 data-lang-hi="डिलीवरी" data-lang-en="Delivery">डिलीवरी</h4><p data-lang-hi="समय पर आपूर्ति" data-lang-en="Timely Supply">समय पर आपूर्ति</p></div>
+                <div class="timeline-step"><div class="timeline-dot">6</div><h4 data-lang-hi="सहायता" data-lang-en="Support">सहायता</h4><p data-lang-hi="किसान सहायता" data-lang-en="Farmer Support">किसान सहायता</p></div>
+            </div>
+        </div>
+        <div style="position:absolute;bottom:-2px;left:0;width:100%;overflow:hidden;line-height:0;pointer-events:none;z-index:1;"><svg viewBox="0 0 1440 60" preserveAspectRatio="none"><path d="M0,0 C360,30 1080,-30 1440,0 L1440,60 L0,60 Z" fill="var(--bg-cream)"/></svg></div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section" id="testimonials">
+        <div class="section-inner">
+            <span class="section-label" data-lang-hi="प्रशंसापत्र" data-lang-en="Testimonials">प्रशंसापत्र</span>
+            <h2 class="section-title" data-lang-hi="किसानों की राय" data-lang-en="What Farmers Say">किसानों की राय</h2>
+            <div class="cards-grid" style="grid-template-columns:repeat(auto-fill, minmax(300px, 1fr));">
+                <div class="testimonial-card"><div class="quote-icon">"</div><p data-lang-hi="OM AGRI INPUTS से उर्वरक लेने के बाद मेरी फसल की पैदावार में काफी सुधार हुआ है। बहुत अच्छी गुणवत्ता और सही मार्गदर्शन मिलता है।" data-lang-en="After taking fertilizers from OM AGRI INPUTS, my crop yield has improved significantly. Very good quality and proper guidance.">OM AGRI INPUTS से उर्वरक लेने के बाद मेरी फसल की पैदावार में काफी सुधार हुआ है। बहुत अच्छी गुणवत्ता और सही मार्गदर्शन मिलता है।</p><div class="testimonial-author"><div class="testimonial-avatar">र</div><div><strong>रमेशभाई पटेल</strong><span data-lang-hi="किसान, चितल" data-lang-en="Farmer, Chital">किसान, चितल</span></div></div></div>
+                <div class="testimonial-card"><div class="quote-icon">"</div><p data-lang-hi="परेशभाई हमेशा सही सलाह देते हैं। उनके उत्पाद असली हैं और दाम भी उचित हैं। मैं सभी किसानों को OM AGRI INPUTS की सिफारिश करता हूँ।" data-lang-en="Pareshbhai always gives the right advice. His products are genuine and prices are fair. I recommend OM AGRI INPUTS to all farmers.">परेशभाई हमेशा सही सलाह देते हैं। उनके उत्पाद असली हैं और दाम भी उचित हैं। मैं सभी किसानों को OM AGRI INPUTS की सिफारिश करता हूँ।</p><div class="testimonial-author"><div class="testimonial-avatar">स</div><div><strong>सुरेशभाई गोहिल</strong><span data-lang-hi="किसान, अमरेली" data-lang-en="Farmer, Amreli">किसान, अमरेली</span></div></div></div>
+                <div class="testimonial-card"><div class="quote-icon">"</div><p data-lang-hi="Dealer के रूप में OM AGRI INPUTS के साथ काम करना बहुत अच्छा अनुभव है। समय पर स्टॉक और बढ़िया सपोर्ट मिलता है।" data-lang-en="Working with OM AGRI INPUTS as a dealer is a great experience. Timely stock and excellent support.">Dealer के रूप में OM AGRI INPUTS के साथ काम करना बहुत अच्छा अनुभव है। समय पर स्टॉक और बढ़िया सपोर्ट मिलता है।</p><div class="testimonial-author"><div class="testimonial-avatar">द</div><div><strong>दीपकभाई मकवाना</strong><span data-lang-hi="Dealer, चितल" data-lang-en="Dealer, Chital">Dealer, चितल</span></div></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" id="faq" style="background:var(--white);">
+        <div style="position:absolute;top:-2px;left:0;width:100%;overflow:hidden;line-height:0;pointer-events:none;z-index:1;"><svg viewBox="0 0 1440 60" preserveAspectRatio="none"><path d="M0,30 C360,0 1080,60 1440,30 L1440,0 L0,0 Z" fill="var(--bg-cream)"/></svg></div>
+        <div class="section-inner" style="max-width:800px;">
+            <span class="section-label">FAQ</span>
+            <h2 class="section-title" data-lang-hi="अक्सर पूछे जाने वाले प्रश्न" data-lang-en="Frequently Asked Questions">अक्सर पूछे जाने वाले प्रश्न</h2>
+            <div class="faq-item"><div class="faq-question"><span data-lang-hi="सबसे अच्छा उर्वरक कौन सा है?" data-lang-en="Which is the best fertilizer?">सबसे अच्छा उर्वरक कौन सा है?</span><span class="faq-arrow">▼</span></div><div class="faq-answer"><p data-lang-hi="यह आपकी फसल और मिट्टी पर निर्भर करता है। हमारे विशेषज्ञों से संपर्क करें, वे आपकी आवश्यकता के अनुसार सर्वोत्तम उत्पाद सुझाएँगे।" data-lang-en="It depends on your crop and soil. Contact our experts, they will suggest the best product according to your needs.">यह आपकी फसल और मिट्टी पर निर्भर करता है। हमारे विशेषज्ञों से संपर्क करें, वे आपकी आवश्यकता के अनुसार सर्वोत्तम उत्पाद सुझाएँगे।</p></div></div>
+            <div class="faq-item"><div class="faq-question"><span data-lang-hi="संपर्क कैसे करें?" data-lang-en="How to contact?">संपर्क कैसे करें?</span><span class="faq-arrow">▼</span></div><div class="faq-answer"><p data-lang-hi="आप हमें 9664972981 या 9426538537 पर कॉल कर सकते हैं, या WhatsApp पर संदेश भेज सकते हैं।" data-lang-en="You can call us at 9664972981 or 9426538537, or send a message on WhatsApp.">आप हमें 9664972981 या 9426538537 पर कॉल कर सकते हैं, या WhatsApp पर संदेश भेज सकते हैं।</p></div></div>
+            <div class="faq-item"><div class="faq-question"><span data-lang-hi="क्या आप Dealer सपोर्ट प्रदान करते हैं?" data-lang-en="Do you provide dealer support?">क्या आप Dealer सपोर्ट प्रदान करते हैं?</span><span class="faq-arrow">▼</span></div><div class="faq-answer"><p data-lang-hi="हाँ, हम अपने Dealer नेटवर्क को पूर्ण समर्थन प्रदान करते हैं जिसमें समय पर स्टॉक, मार्केटिंग सामग्री और तकनीकी सहायता शामिल है।" data-lang-en="Yes, we provide full support to our dealer network including timely stock, marketing materials and technical assistance.">हाँ, हम अपने Dealer नेटवर्क को पूर्ण समर्थन प्रदान करते हैं जिसमें समय पर स्टॉक, मार्केटिंग सामग्री और तकनीकी सहायता शामिल है।</p></div></div>
+            <div class="faq-item"><div class="faq-question"><span data-lang-hi="कौन से उत्पाद उपलब्ध हैं?" data-lang-en="Which products are available?">कौन से उत्पाद उपलब्ध हैं?</span><span class="faq-arrow">▼</span></div><div class="faq-answer"><p data-lang-hi="हमारे पास SSP, Micronutrients, Water Soluble Fertilizers, Organic Products, Growth Promoters, Humic Acid और बहुत कुछ उपलब्ध है।" data-lang-en="We have SSP, Micronutrients, Water Soluble Fertilizers, Organic Products, Growth Promoters, Humic Acid and much more.">हमारे पास SSP, Micronutrients, Water Soluble Fertilizers, Organic Products, Growth Promoters, Humic Acid और बहुत कुछ उपलब्ध है।</p></div></div>
+            <div class="faq-item"><div class="faq-question"><span data-lang-hi="डिलीवरी में कितना समय लगता है?" data-lang-en="How long does delivery take?">डिलीवरी में कितना समय लगता है?</span><span class="faq-arrow">▼</span></div><div class="faq-answer"><p data-lang-hi="ऑर्डर की मात्रा और स्थान के अनुसार डिलीवरी में 24-72 घंटे लगते हैं। हम समय पर डिलीवरी सुनिश्चित करते हैं।" data-lang-en="Delivery takes 24-72 hours depending on order quantity and location. We ensure timely delivery.">ऑर्डर की मात्रा और स्थान के अनुसार डिलीवरी में 24-72 घंटे लगते हैं। हम समय पर डिलीवरी सुनिश्चित करते हैं।</p></div></div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="section-inner">
+            <span class="section-label" data-lang-hi="संपर्क करें" data-lang-en="Contact Us">संपर्क करें</span>
+            <h2 class="section-title" data-lang-hi="संपर्क करें" data-lang-en="Contact Us">संपर्क करें</h2>
+            <div class="two-col mt-20" style="margin-top:36px;">
+                <div>
+                    <div class="contact-info-item"><div class="contact-icon">👤</div><div><strong>Paresh Lathiya</strong><br><span data-lang-hi="मालिक, OM AGRI INPUTS" data-lang-en="Owner, OM AGRI INPUTS">मालिक, OM AGRI INPUTS</span></div></div>
+                    <div class="contact-info-item"><div class="contact-icon">📍</div><div><strong data-lang-hi="पता" data-lang-en="Address">पता</strong><br>Chital, Amreli, Gujarat</div></div>
+                    <div class="contact-info-item"><div class="contact-icon">📞</div><div><strong>Phone</strong><br><a href="tel:+919664972981">9664972981</a></div></div>
+                    <div class="contact-info-item"><div class="contact-icon">📧</div><div><strong>Email</strong><br>omagriinputs@gmail.com</div></div>
+                    <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:16px;">
+                        <a href="tel:+919664972981" class="btn-primary btn-primary-fill">📞 Call Now</a>
+                        <a href="https://wa.me/919664972981" target="_blank" rel="noopener" class="btn-primary btn-primary-outline">💬 WhatsApp</a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm" action="https://formspree.io/f/maqzzqpd" method="POST">
+                    <input type="text" name="name" placeholder="नाम / Name" required>
+                    <input type="tel" name="phone" placeholder="फ़ोन / Phone" required>
+                    <input type="text" name="village" placeholder="गाँव / Village">
+                    <textarea name="message" placeholder="संदेश / Message" required></textarea>
+                    <button type="submit" class="btn-primary btn-primary-fill" style="width:100%;justify-content:center;">📩 <span data-lang-hi="भेजें" data-lang-en="Send Message">भेजें</span></button>
+                </form>
+            </div>
+            <!-- Google Maps -->
+            <div style="margin-top:30px;border-radius:var(--radius-lg);overflow:hidden;height:300px;background:var(--border-light);">
+                <iframe
+                    title="Google Maps - Chital, Amreli, Gujarat"
+                    src="https://www.google.com/maps?output=embed&amp;q=https://maps.app.goo.gl/vpn1A9f2XkebFTtWA"
+                    width="100%"
+                    height="100%"
+                    style="border:0;display:block;"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-grid">
+            <div>
+                <h3 style="color:#fff;margin-bottom:12px;">OM AGRI INPUTS</h3>
+                <p style="color:#b5d0b5;font-size:0.9rem;" data-lang-hi="उन्नत खेती के लिए भरोसेमंद कृषि समाधान" data-lang-en="Trusted Agricultural Solutions for Advanced Farming">उन्नत खेती के लिए भरोसेमंद कृषि समाधान</p>
+            </div>
+            <div>
+                <h4 style="color:#fff;margin-bottom:10px;" data-lang-hi="त्वरित लिंक" data-lang-en="Quick Links">त्वरित लिंक</h4>
+                <p><a href="#home">होम</a></p><p><a href="#products">उत्पाद</a></p><p><a href="#gallery">गैलरी</a></p><p><a href="#contact">संपर्क</a></p>
+            </div>
+            <div>
+                <h4 style="color:#fff;margin-bottom:10px;">Social Media</h4>
+                <p><a href="https://www.linkedin.com/in/paresh-lathiya-a17115233/" target="_blank" rel="noopener">in LinkedIn</a></p>
+                <p><a href="https://www.youtube.com/@pareshlathiya7100" target="_blank" rel="noopener">▶ YouTube</a></p>
+            </div>
+
+            <div>
+                <h4 style="color:#fff;margin-bottom:10px;" data-lang-hi="संपर्क" data-lang-en="Contact">संपर्क</h4>
+                <p>📞 9664972981</p><p>📍 Chital, Amreli, Gujarat</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 OM AGRI INPUTS. All Rights Reserved. | Designed with ❤️ for Farmers | Paresh Lathiya</p>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/919664972981" target="_blank" rel="noopener" class="whatsapp-float" title="Chat on WhatsApp">💬</a>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop" title="Back to Top">↑</button>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox"><div class="lightbox-content" id="lightboxContent"></div></div>
+    <script src="script.js"></script>
+</body>
 </html>
